@@ -1,2 +1,3 @@
 conan install . --build missing -s build_type=Release
-mkdir build || (cd build && cmake ..)
+mkdir build 
+cd build && cmake ..
