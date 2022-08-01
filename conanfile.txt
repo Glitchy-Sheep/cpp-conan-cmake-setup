@@ -1,0 +1,7 @@
+[requires]
+
+[imports]
+bin, *.dll -> ./third_party
+
+[generators]
+cmake
