@@ -9,6 +9,8 @@ set(SRC_DIR ${PROJECT_SOURCE_DIR}/src)
 set(INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
 
+include_directories(${INCLUDE_DIR})
+
 set(SOURCES
     ${SRC_DIR}/main.cpp
 )
